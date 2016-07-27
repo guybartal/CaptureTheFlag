@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="45a89f0d-b791-42ee-a804-38c38f2da936" name="Sequence1" linkedPackageId="226eba4c-2e9e-4ba2-8d08-7e66c93a308d" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="1b499842-5a8a-4d4a-81d1-f0c16bf089d5">
+      <profileInstance Id="50e1a516-5a4f-46c3-b4c4-ec82d8ff242e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8688918d-8710-4d95-b235-66a6bd38acef">
+      <profileInstance Id="a2fa5199-a11a-4a7a-acfc-08ecebea53d7" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="1316676c-1868-4cb7-8327-cb7492d66435" name="Sequence1" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="de0d6bc1-30f6-4bc4-b19c-0535804a79da" />
+        <lifelines>
+          <lifeline Id="e103cf97-c181-4907-876b-c767d6fbae28" name="Client" isActor="false" lifelineDisplayName="Client">
+            <elementDefinition Id="f6c916ef-9ba4-4876-bcd5-bf7e5c927f64" />
+          </lifeline>
+          <lifeline Id="b03a4ab0-b8fc-4b7e-978e-9029bc4a8594" name="Server" isActor="false" lifelineDisplayName="Server">
+            <elementDefinition Id="002d4de4-6790-402f-8b93-7213778282e4" />
+          </lifeline>
+        </lifelines>
+      </interaction>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="226eba4c-2e9e-4ba2-8d08-7e66c93a308d" name="WebSockets.Modeling">
+    <elementDefinition Id="b774b52d-ef6e-4f90-92b4-7421208d2fd2" />
+  </package>
+</SequenceDesignerModel>

@@ -1,0 +1,16 @@
+{
+  "name": "socket.io-game",
+  "version": "0.0.0",
+  "description": "unity game using socket.io",
+  "main": "app.js",
+  "author": "Guy Bertental",
+  "private": true,
+  "license": "BSD",
+  "dependencies": {
+    "express": "4.13.4",
+    "socket.io": "^1.4.5",
+    "shortid": "^2.2.6",
+    "cors" : "^2.7.1"
+
+  }
+}
