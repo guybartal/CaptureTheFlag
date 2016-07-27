@@ -1,5 +1,7 @@
 # Capture the flag 
-* Combine Unity 3D Game development with IOT devices and utilizing Azure Service Fabric as a backed
+## Breaking the walls between virtual gaming and real world with IoT devices and Microsoft Azure
+
+* Combine Unity 3D Game development with IOT devices and utilizing Azure Service Fabric as a backend
 * We install on the wall two Red & Blue LED matrix one on each side of the screen
 * Audience downloads the game from mobile store or play on browser
 * Divide audience into two groups - red and blue upon login into created session
