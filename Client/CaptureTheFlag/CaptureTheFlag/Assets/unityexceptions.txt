@@ -1,0 +1,1268 @@
+Log: login player{"id":"","name":"dror","team":1,"x":0.0,"y":0.0,"flagX":0.0,"flagY":0.0}
+UnityEngine.Debug:Log(Object)
+Network:Login(Player) (at Assets/Scripts/Network.cs:32)
+GameManager:ChooseGroup(Int32) (at Assets/Scripts/GameManager.cs:83)
+UnityEngine.EventSystems.EventSystem:Update()
+
+Log: successfully registered, with id: {"id":"ryaAo7Dd","x":0,"y":0,"name":"dror","team":1,"flagX":-61,"flagY":-233}
+UnityEngine.Debug:Log(Object)
+Network:OnRegister(SocketIOEvent) (at Assets/Scripts/Network.cs:154)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: replacing material to 8558
+UnityEngine.Debug:Log(Object)
+Spwaner:SetPlayerData(GameObject, Player) (at Assets/Scripts/Spwaner.cs:107)
+Network:OnRegister(SocketIOEvent) (at Assets/Scripts/Network.cs:156)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: replacing material to 8044
+UnityEngine.Debug:Log(Object)
+Spwaner:SetFlagData(GameObject, Player) (at Assets/Scripts/Spwaner.cs:59)
+Network:OnRegister(SocketIOEvent) (at Assets/Scripts/Network.cs:158)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: spawned{"id":"Hk40s7wu","x":0,"y":0,"name":"guy","team":0,"flagX":-338,"flagY":361}
+UnityEngine.Debug:Log(Object)
+Network:OnSpawned(SocketIOEvent) (at Assets/Scripts/Network.cs:118)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: replacing material to 7996
+UnityEngine.Debug:Log(Object)
+Spwaner:SetPlayerData(GameObject, Player) (at Assets/Scripts/Spwaner.cs:107)
+Spwaner:SpwanSplayer(Player) (at Assets/Scripts/Spwaner.cs:31)
+Network:OnSpawned(SocketIOEvent) (at Assets/Scripts/Network.cs:121)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: flagPos {"x":0.0,"y":0.0,"z":0.0}
+UnityEngine.Debug:Log(Object)
+Spwaner:SpwanSplayer(Player) (at Assets/Scripts/Spwaner.cs:36)
+Network:OnSpawned(SocketIOEvent) (at Assets/Scripts/Network.cs:121)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: replacing material to 9074
+UnityEngine.Debug:Log(Object)
+Spwaner:SetFlagData(GameObject, Player) (at Assets/Scripts/Spwaner.cs:59)
+Spwaner:SpwanSplayer(Player) (at Assets/Scripts/Spwaner.cs:39)
+Network:OnSpawned(SocketIOEvent) (at Assets/Scripts/Network.cs:121)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: update player position {"x":-2.365352,"y":4.27427,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnUpdatePosition(SocketIOEvent) (at Assets/Scripts/Network.cs:53)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: sending position to node{"x":2.522788,"y":2.525802}
+UnityEngine.Debug:Log(Object)
+Network:Move(Vector3) (at Assets/Scripts/Network.cs:39)
+ClickMove:OnClick(RaycastHit) (at Assets/Scripts/ClickMove.cs:15)
+ScreenClicker:Clicked(Ray) (at Assets/Scripts/ScreenClicker.cs:42)
+ScreenClicker:Update() (at Assets/Scripts/ScreenClicker.cs:21)
+
+Log: sending position to node{"x":5.051878,"y":2.337779}
+UnityEngine.Debug:Log(Object)
+Network:Move(Vector3) (at Assets/Scripts/Network.cs:39)
+ClickMove:OnClick(RaycastHit) (at Assets/Scripts/ClickMove.cs:15)
+ScreenClicker:Clicked(Ray) (at Assets/Scripts/ScreenClicker.cs:42)
+ScreenClicker:Update() (at Assets/Scripts/ScreenClicker.cs:21)
+
+Log: sending position to node{"x":5.35684,"y":-1.147021}
+UnityEngine.Debug:Log(Object)
+Network:Move(Vector3) (at Assets/Scripts/Network.cs:39)
+ClickMove:OnClick(RaycastHit) (at Assets/Scripts/ClickMove.cs:15)
+ScreenClicker:Clicked(Ray) (at Assets/Scripts/ScreenClicker.cs:42)
+ScreenClicker:Update() (at Assets/Scripts/ScreenClicker.cs:21)
+
+Log: Player is moving{"x":-5.674414,"y":8.548304,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (-5.7, 0.0, 8.5)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":-4.591109,"y":11.42034,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (-4.6, 0.0, 11.4)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":-3.351278,"y":14.06487,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (-3.4, 0.0, 14.1)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":-1.130786,"y":9.408348,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (-1.1, 0.0, 9.4)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":-1.959208,"y":7.953966,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (-2.0, 0.0, 8.0)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":-0.2772413,"y":3.928931,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (-0.3, 0.0, 3.9)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":1.078701,"y":3.421806,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (1.1, 0.0, 3.4)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":2.467173,"y":3.969379,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (2.5, 0.0, 4.0)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":4.247207,"y":5.163344,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (4.2, 0.0, 5.2)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":5.846083,"y":3.402932,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (5.8, 0.0, 3.4)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":7.253322,"y":0.9664314,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (7.3, 0.0, 1.0)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":6.063441,"y":-5.567674,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (6.1, 0.0, -5.6)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":5.341967,"y":-5.521382,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (5.3, 0.0, -5.5)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":7.73868,"y":-6.608418,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (7.7, 0.0, -6.6)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":8.72195,"y":-10.53716,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (8.7, 0.0, -10.5)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":11.56184,"y":-10.00906,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (11.6, 0.0, -10.0)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":13.41398,"y":-10.90356,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (13.4, 0.0, -10.9)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":17.12177,"y":-12.4967,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (17.1, 0.0, -12.5)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":18.96079,"y":-13.29309,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (19.0, 0.0, -13.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":20.76652,"y":-14.07531,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (20.8, 0.0, -14.1)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":22.94208,"y":-15.40206,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (22.9, 0.0, -15.4)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":24.65382,"y":-16.25545,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (24.7, 0.0, -16.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":26.17964,"y":-17.04787,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (26.2, 0.0, -17.0)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":28.10551,"y":-18.32718,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (28.1, 0.0, -18.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":29.96336,"y":-19.50026,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (30.0, 0.0, -19.5)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":31.20728,"y":-20.24574,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (31.2, 0.0, -20.2)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":31.8711,"y":-20.64686,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (31.9, 0.0, -20.6)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":33.1119,"y":-21.39637,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (33.1, 0.0, -21.4)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":34.55147,"y":-22.33425,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (34.6, 0.0, -22.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":35.6371,"y":-23.03012,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (35.6, 0.0, -23.0)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":36.68844,"y":-23.72289,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (36.7, 0.0, -23.7)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":37.51545,"y":-24.24339,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (37.5, 0.0, -24.2)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":38.44885,"y":-24.83317,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (38.4, 0.0, -24.8)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":39.56472,"y":-25.53783,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (39.6, 0.0, -25.5)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":40.38968,"y":-26.05937,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (40.4, 0.0, -26.1)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":41.03106,"y":-26.4641,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (41.0, 0.0, -26.5)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":41.734,"y":-26.90886,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (41.7, 0.0, -26.9)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":42.20868,"y":-27.20867,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (42.2, 0.0, -27.2)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":42.84979,"y":-27.61302,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (42.8, 0.0, -27.6)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":43.67474,"y":-28.13487,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (43.7, 0.0, -28.1)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":44.54849,"y":-28.68578,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (44.5, 0.0, -28.7)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":45.54285,"y":-29.31438,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (45.5, 0.0, -29.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":48.86591,"y":-31.08173,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (48.9, 0.0, -31.1)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":49.03733,"y":-34.4521,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (49.0, 0.0, -34.5)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":48.73489,"y":-35.33276,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (48.7, 0.0, -35.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":48.75964,"y":-36.18144,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (48.8, 0.0, -36.2)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":47.57684,"y":-37.73116,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (47.6, 0.0, -37.7)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":46.9495,"y":-39.29618,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (46.9, 0.0, -39.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":46.77456,"y":-42.24531,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (46.8, 0.0, -42.2)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":46.55568,"y":-44.30115,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (46.6, 0.0, -44.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":45.80326,"y":-44.70298,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (45.8, 0.0, -44.7)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":44.97436,"y":-45.48795,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (45.0, 0.0, -45.5)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":46.39971,"y":-43.42567,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (46.4, 0.0, -43.4)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":47.51441,"y":-44.67956,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (47.5, 0.0, -44.7)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":47.54422,"y":-45.87355,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (47.5, 0.0, -45.9)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":44.57104,"y":-41.09472,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (44.6, 0.0, -41.1)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":46.74011,"y":-45.35793,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (46.7, 0.0, -45.4)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":44.264,"y":-41.56921,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (44.3, 0.0, -41.6)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":42.66734,"y":-39.14176,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (42.7, 0.0, -39.1)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":37.98439,"y":-34.32876,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (38.0, 0.0, -34.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":36.12416,"y":-32.30471,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (36.1, 0.0, -32.3)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":34.35936,"y":-30.40481,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (34.4, 0.0, -30.4)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":30.27052,"y":-26.01278,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (30.3, 0.0, -26.0)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":27.58154,"y":-23.12386,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (27.6, 0.0, -23.1)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: Player is moving{"x":26.30147,"y":-21.74795,"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:81)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: pos: (26.3, 0.0, -21.7)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:85)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: moving player NetworkPlayer(Clone)
+UnityEngine.Debug:Log(Object)
+Network:OnMove(SocketIOEvent) (at Assets/Scripts/Network.cs:95)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Log: player disconnected {"id":"Hk40s7wu"}
+UnityEngine.Debug:Log(Object)
+Network:OnDisconnected(SocketIOEvent) (at Assets/Scripts/Network.cs:69)
+SocketIO.SocketIOComponent:EmitEvent(SocketIOEvent) (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:400)
+SocketIO.SocketIOComponent:Update() (at Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs:131)
+
+Warning: Sending message header failed
+
+Warning: Sending message header failed
+
+Warning: Sending message header failed
+
+Warning: Sending message header failed
+
+Warning: Sending message header failed
+

@@ -10,6 +10,7 @@ public class Network : MonoBehaviour
 
     static SocketIOComponent socket;
     public GameObject myPlayer;
+    public GameObject myFlag;
     public Spwaner spwaner;
     // Use this for initialization
     void Start()
@@ -154,6 +155,8 @@ public class Network : MonoBehaviour
         Player player = GetPlayerFromJson(e);
         spwaner.SetPlayerData(myPlayer, player);
         spwaner.AddPlayer(player.id, myPlayer);
+        spwaner.SetFlagData(myFlag, player);
+        spwaner.AddFlag(player.id, myFlag);
     }
 
     private static float GetFloatFromJson(JSONObject data, string key)

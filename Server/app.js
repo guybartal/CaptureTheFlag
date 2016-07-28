@@ -5,6 +5,7 @@ var server = require('http').createServer(app);
 var io = require('socket.io')(server);
 var cors = require('cors')
 var port = process.env.PORT || 3000;
+var random = require('random-js')(); // uses the nativeMath engin;
 
 server.listen(port, function () {
   console.log('Server listening at port %d', port);
@@ -13,8 +14,6 @@ server.listen(port, function () {
 app.use(cors());
 app.use(express.static(__dirname + '/public'));
 
-
-//var io = require('socket.io')(process.env.PORT || 3000);
 var shortid = require('shortid');
 var players = [];
 
@@ -29,11 +28,13 @@ io.on('connection', (socket) => {
             x: 0,
             y: 0,
             name: data.name,
-            team: data.team
+            team: data.team,
+            flagX: random.integer(-40, 40),
+            flagY: random.integer(-40, 40),
         };
 
         players[thisPlayerId] = player;
-        console.log('client logged in, broadcasting spawn, id: ', player.id, ' name ' + player.name + ' team ' + player.team);
+        console.log('client logged in, broadcasting spawn: ', JSON.stringify(player));
 
         socket.emit('register', player);
         socket.broadcast.emit('spawn', player);

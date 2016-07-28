@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour {
     public GameObject LoginPanel;
     public GameObject ChooseTeamPanel;
     public GameObject MyPlayer;
+    public GameObject MyFlag;
     public Text PlayerName;
     public Team Team;
 

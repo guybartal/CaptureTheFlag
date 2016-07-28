@@ -12,5 +12,7 @@ namespace Assets.Scripts
         public Team team;
         public float x;
         public float y;
+        public float flagX;
+        public float flagY;
     }
 }

@@ -8,12 +8,18 @@ using UnityEngine.UI;
 
 public class Spwaner : MonoBehaviour
 {
-    public GameObject myPlayer;
     public GameObject playerPrefab;
+    public GameObject flagPrefab;
+
     public SocketIOComponent socket;
-    public Material redMaterial;
-    public Material blueMaterial;
+    public Material redPlayerMaterial;
+    public Material bluePlayerMaterial;
     Dictionary<string, GameObject> players = new Dictionary<string, GameObject>();
+
+    public Material redFlagMaterial;
+    public Material blueFlagMaterial;
+    Dictionary<string, GameObject> flags = new Dictionary<string, GameObject>();
+    int floorSize = 40;
 
     public GameObject SpwanSplayer(Player player)
     {
@@ -24,6 +30,14 @@ public class Spwaner : MonoBehaviour
 
             SetPlayerData(playerObject, player);
             AddPlayer(player.id, playerObject);
+            
+            
+            Vector3 flagPos = new Vector3(player.flagX, 0, player.flagY);
+            Debug.Log("flagPos " + JsonUtility.ToJson(flagPos));
+            var flagObject = Instantiate(flagPrefab, flagPos, Quaternion.identity) as GameObject;
+
+            SetFlagData(flagObject, player);
+            AddFlag(player.id, flagObject);
 
             return playerObject;
         }
@@ -32,6 +46,29 @@ public class Spwaner : MonoBehaviour
             Debug.LogError(ex.ToString());
         }
         return null;
+    }
+
+    public void SetFlagData(GameObject flagObject, Player player)
+    {
+        Vector3 flagPos = new Vector3(player.flagX, 0, player.flagY);
+        flagObject.transform.position = flagPos;
+
+        MeshRenderer rend = flagObject.GetComponent<MeshRenderer>();
+        if (rend != null)
+        {
+            Debug.Log("replacing material to " + (player.team == Team.Red ? redFlagMaterial.GetInstanceID().ToString() : blueFlagMaterial.GetInstanceID().ToString()));
+            Material[] matArr = new Material[1] { player.team == Team.Red ? redFlagMaterial : blueFlagMaterial };
+            rend.materials = matArr;
+        }
+        else
+        {
+            Debug.Log("Renderer not found");
+        }
+    }
+
+    public void AddFlag(string id, GameObject flagObject)
+    {
+        flags.Add(id, flagObject);
     }
 
     public GameObject FindPlayer(string id)
@@ -67,8 +104,8 @@ public class Spwaner : MonoBehaviour
         SkinnedMeshRenderer rend = playerGameObject.GetComponentInChildren<SkinnedMeshRenderer>();
         if (rend != null)
         {
-            Debug.Log("replacing material to " + (player.team == Team.Red ? redMaterial.GetInstanceID().ToString() : blueMaterial.GetInstanceID().ToString()));
-            Material[] matArr = new Material[1] { player.team == Team.Red ? redMaterial : blueMaterial };
+            Debug.Log("replacing material to " + (player.team == Team.Red ? redPlayerMaterial.GetInstanceID().ToString() : bluePlayerMaterial.GetInstanceID().ToString()));
+            Material[] matArr = new Material[1] { player.team == Team.Red ? redPlayerMaterial : bluePlayerMaterial };
             rend.materials = matArr;
         }
         else
