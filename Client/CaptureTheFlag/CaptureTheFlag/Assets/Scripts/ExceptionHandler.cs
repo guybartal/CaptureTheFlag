@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class ExceptionHandler : MonoBehaviour
 {
-    private StreamWriter m_Writer;
+    //private StreamWriter m_Writer;
 
     void Awake()
     {
         Application.logMessageReceived += Application_logMessageReceived;
-        m_Writer = new StreamWriter(Path.Combine(Application.dataPath, "unityexceptions.txt"));
-        m_Writer.AutoFlush = true;
+        //m_Writer = new StreamWriter(Path.Combine(Application.dataPath, "unityexceptions.txt"));
+       // m_Writer.AutoFlush = true;
     }
 
     private void Application_logMessageReceived(string condition, string stackTrace, LogType type)
@@ -35,6 +35,6 @@ public class ExceptionHandler : MonoBehaviour
             default:
                 break;
         }
-        m_Writer.WriteLine("{0}: {1}\n{2}", type, condition, stackTrace);
+        //m_Writer.WriteLine("{0}: {1}\n{2}", type, condition, stackTrace);
     }
 }
